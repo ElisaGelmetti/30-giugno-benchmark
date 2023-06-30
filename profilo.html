@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/profilo.css">  
+</head>
+  <body>
+    <main>
+
+        <div class="container mt-5 m-6">
+            <div class="row">
+              <div class="logo col-9 img-fluid mb-5">
+                <img src="./assets/media/netflix_logo.png" alt="logo" />
+              </div>
+            </div>
+
+            <section class=" position-relative  d-none d-sm-block text-light " id="day-deal">
+                <h1 class="mb- position-absolute top-0 start-50 translate-middle fw-bold ">Edit Profile</h1>
+    
+                <div class="row m-4">
+                    <div class="col col-3 mx-5 mt-5 my-5">
+                        <img src="./assets/media/foto.jpg"
+                            class="img-fluid rounded shadow" alt="photo" />
+    
+                    </div>
+                    <div class="col col-lg-4 mt-5 ">
+                        <div class="display-4 lh-1 "><div class="input-group">   
+                            <input type="text" aria-label="Last name" placeholder="Strive Student" class="form-control bg-dark">
+                          </div></div>
+                        <p class="font-monospace text-muted mt-4 m-auto">Language</p>
+                        <p class="lead"> <div class="input-group mb-2 mt-0">
+                            <button class="btn btn-outline-secondary dropdown-toggle mt-0 mb-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">English</button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Italian</a></li>
+                              <li><a class="dropdown-item" href="#"></a></li>
+                              <li><a class="dropdown-item" href="#">Spanish</a></li>                         
+                              <li><a class="dropdown-item" href="#">French</a></li>
+                            </ul>
+                          </div>
+                          <hr>
+                          <div  class="row font-monospace text-muted mt-4">
+                          <h6  class="font-monospace  mt-1 ">Maturity Setting:</h6>
+                          <button id="maturity" class="text-bg-dark ">ALL MATURITY RATINGS</button>
+                          <div>
+                          <button type="button" class=" button d-flex mb-2 mt-3 btn btn-outline-secondary" disabled>EDIT</button>
+                        </div>
+                    </div>
+                        <hr>
+                        <div class=" font-monospace text-muted mt-4">
+                            <h6 >Autoplay controls</h6>
+                            <div class="form-check p-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+                                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
+                                  </svg> Autoplay next episode 
+                            </label>
+                              </div>
+                              <div class="form-check p-0 ">                       
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square" viewBox="0 0 16 16">
+                                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"/>
+                                      </svg> Autoplay previews
+                                </label>
+                               
+                              </div>
+                              <hr>
+                              <div class="button d-flex mb-5 mt-4">
+                                <button type="button" class=" btn btn-light" disabled>SAV</button>
+                                <button type="button" class=" btn btn-outline-secondary" disabled>CANCEL</button>
+                                <button type="button" class=" btn btn-outline-secondary" disabled>DELETE PROFILE</button>
+                              
+                        </div>
+                    </div>                   
+                </div>
+
+            </section>
+       
+    
+    
+    
+    </main>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
